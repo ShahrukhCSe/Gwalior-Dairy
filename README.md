@@ -1,0 +1,4 @@
+Gwalior Diary App. The purpose of this app is to fulfill the thrust of tourist instantly without any efforts. This app provides whole view of Gwalior.This application automates the process of searching all the places of Gwalior. By using this app user can get to know about the desired place of Gwalior. The idea behind to design this app is to reduce the visitors inconvenience. The app ensures the visitors to provide best facilities of Gwalior. Even users can also decide the best places according to their suitability and there budget. The key point of this app is to make the trip enjoyable for visitors. So, that they remember the trip and want to visit again.
+
+Technology used ANDROID, JAVA, XML.
+Database: XAMMP MY-SQL

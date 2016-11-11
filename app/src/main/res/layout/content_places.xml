@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="srkcsiitm.com.gwalior.Places"
+    tools:showIn="@layout/activity_places">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+      <android.support.v7.widget.CardView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:cardview="http://schemas.android.com/apk/res-auto"
+
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          cardview:cardCornerRadius="5dp"
+          android:layout_margin="5dp"
+          android:id="@+id/Heritage">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:scaleType="centerCrop"
+                android:background="@drawable/fort">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gwalior Fort"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:id="@+id/txtv3"
+                /></LinearLayout>
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:cardview="http://schemas.android.com/apk/res-auto"
+
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          cardview:cardCornerRadius="5dp"
+          android:layout_margin="5dp"
+          android:id="@+id/card">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:scaleType="centerCrop"
+                android:background="@drawable/mlbtheme">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theme Road"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:id="@+id/txtv1"
+                /></LinearLayout>
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:cardview="http://schemas.android.com/apk/res-auto"
+
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          cardview:cardCornerRadius="5dp"
+          android:layout_margin="5dp"
+          android:id="@+id/card3">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:scaleType="centerCrop"
+                android:background="@drawable/gpdargh">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tansen Tomb"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:id="@+id/txtv2"
+                /></LinearLayout>
+      </android.support.v7.widget.CardView>
+      <android.support.v7.widget.CardView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:cardview="http://schemas.android.com/apk/res-auto"
+
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          cardview:cardCornerRadius="5dp"
+          android:layout_margin="5dp"
+          android:id="@+id/card4">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ckd">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heritage Places"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:id="@+id/txtv4"
+                /></LinearLayout>
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:cardview="http://schemas.android.com/apk/res-auto"
+
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          cardview:cardCornerRadius="5dp"
+          android:layout_margin="5dp"
+          android:id="@+id/card5">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:scaleType="centerCrop"
+                android:background="@drawable/appbg">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heritage Places"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:id="@+id/txtv"
+                /></LinearLayout>
+      </android.support.v7.widget.CardView>
+
+   </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
